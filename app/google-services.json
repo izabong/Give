@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "6637652099",
+    "firebase_url": "https://give-75a24.firebaseio.com",
+    "project_id": "give-75a24",
+    "storage_bucket": "give-75a24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6637652099:android:7307dedf3011c4926933b6",
+        "android_client_info": {
+          "package_name": "com.example.give"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6637652099-8fi2nie0m1ln1971khdkjrggn8aq3t3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.give",
+            "certificate_hash": "1891acdaf3952422f71e03633488bed81a2d7029"
+          }
+        },
+        {
+          "client_id": "6637652099-947k9mc30c5bslcbdm6v85o0nmh9g4a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6fEPPJXPrnSZQ4kTB19s7aIUhjk18H_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6637652099-947k9mc30c5bslcbdm6v85o0nmh9g4a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
