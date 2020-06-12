@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         password = findViewById(R.id.editText2);
         btnSignUp = findViewById(R.id.button2);
         tvSignIn = findViewById(R.id.textView);
-        btnSignUp.setOnClickListener(new View.OnClickListener()) {
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email = emailId.getText().toString();
@@ -69,15 +69,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Error Occurred!", Toast.LENGTH_SHORT).show();
                 }
             }
-        };
+        });
 
-        tvSignIn.setOnClickListener(new View.OnClickListener()) {
+        tvSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
                     public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(i);
             }
-        };
+        });
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
